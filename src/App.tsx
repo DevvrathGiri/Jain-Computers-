@@ -322,42 +322,39 @@ function App() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-24 bg-gradient-to-b from-primary-900 to-primary-800 text-white">
-          <div className="container mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold mb-8">Start Your Journey Today</h2>
-            <p className="text-xl mb-8 text-primary-100">Join Aarambh Batch and transform your career in technology</p>
-            <button className="btn-secondary">
-              Apply Now
-            </button>
-          </div>
-        </section>
-        <section id="price-comparison" className="py-24 bg-gradient-to-b from-primary-900 to-primary-800 text-white">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-8">Price Comparison of Coaching Institutes</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-primary-700 p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold">Coding Blocks</h3>
-              <p className="text-xl text-primary-100">₹60,000</p>
-            </div>
-            <div className="bg-primary-700 p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold">Coding Ninjas</h3>
-              <p className="text-xl text-primary-100">₹95,000</p>
-            </div>
-            <div className="bg-primary-700 p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold">Scaler</h3>
-              <p className="text-xl text-primary-100">₹1,20,000</p>
-            </div>
-            <div className="bg-primary-700 p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold">Basecodes Academy</h3>
-              <p className="text-xl text-primary-100">₹1,40,000</p>
-            </div>
-            <div className="bg-primary-700 p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold">Acciojob</h3>
-              <p className="text-xl text-primary-100">₹2,40,000</p>
-            </div>
-          </div>
+        <section id="price-comparison" className="py-16 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">Save More with Jain Computers!</h2>
+    
+    <div className="grid md:grid-cols-2 gap-8">
+      {/* Jain Computers */}
+      <div className="bg-gray-700 p-6 rounded-2xl shadow-lg text-center">
+        <h3 className="text-5xl font-extrabold text-pink-500 ">Jain Computers</h3>
+        <div className="mt-4 text-4xl font-bold">
+          ₹40,000 <span className="text-2xl text-gray-400 line-through">₹1,20,000</span>
         </div>
-      </section>
+        <div className="text-2xl font-semibold mt-2 bg-pink-600 text-white px-4 py-1 rounded-md inline-block">
+          67% OFF
+        </div>
+        <div className="text-2xl font-semibold mt-2 bg-pink-600 text-white px-4 py-1 rounded-md inline-block">
+        Limited Time Offer
+        </div>
+      </div>
+
+      {/* Others */}
+      <div className="bg-gray-700 p-6 rounded-2xl shadow-lg text-center">
+        <h3 className="text-5xl font-extrabold text-emerald-500">Others</h3>
+        <div className="mt-4 text-4xl font-bold">₹1,20,000</div>
+        <div className="text-2xl font-semibold mt-2 bg-emerald-600 text-white px-4 py-1 rounded-md inline-block">
+          0% OFF
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
       </main>
 
       {/* Footer */}
