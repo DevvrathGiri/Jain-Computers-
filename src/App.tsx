@@ -324,7 +324,7 @@ function App() {
         {/* Contact Section */}
         <section id="price-comparison" className="py-16 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
   <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-4xl font-bold mb-6">Save More with Jain Computers!</h2>
+    <h2 className="text-4xl font-bold mb-6">Save More with Jain Computers Classes!</h2>
     
     <div className="grid md:grid-cols-2 gap-8">
       {/* Jain Computers */}
